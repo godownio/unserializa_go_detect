@@ -376,7 +376,7 @@ func (p HTTPRow) FormateHTTPListInfo() string {
 func queryAI(queryContent string) string {
 
 	// 初始化QWEN聊天机器人客户端，使用您的API密钥
-	apiKey := "sk-f4748146aa3c405ebf54d9c594968dbb"
+	apiKey := your_key
 	qwenclient := qwen.NewWithDefaultChat(apiKey)
 
 	qwenclient.QWenModel = "qwen-turbo"
